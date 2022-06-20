@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: brown;
+    color: white;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.col-1 {
+    float: left;
+    width: calc(33.33% - 30px);
+    /* background-color: aqua; */
+    padding: 15px;
+}
+
+.col-2 {
+    float: left;
+    width: calc(33.33% - 30px);
+    /* background-color: blue; */
+    padding: 15px;
+}
+
+.col-3 {
+    float: right;
+    width: calc(33.33% - 30px);
+    /* background-color: red; */
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.col-4 {
+    float: left;
+    width: calc(25% - 30px);
+    /* background-color: aqua; */
+    padding: 15px;
+}
+
+.col-5 {
+    float: left;
+    width: calc(25% - 30px);
+    /* background-color: blue; */
+    padding: 15px;
+}
+
+.col-6 {
+    float: right;
+    width: calc(25% - 30px);
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.col-7 {
+    float: right;
+    width: calc(25% - 30px);
+    /* background-color: red; */
+    padding: 15px;
+}
